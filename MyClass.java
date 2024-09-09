@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class MyClass {
   public static void main(String[] args) {
     int x, y, sum;
@@ -9,5 +11,6 @@ public class MyClass {
     y = myObj.nextInt(); // Read user input
 
     sum = x + y;  // Calculate the sum of x + y
-    System.out.println("Sum is: " + sum); // Print the sum
+    System.out.println("Sum of number is  : " + sum); // Print the sum
   }
+}
